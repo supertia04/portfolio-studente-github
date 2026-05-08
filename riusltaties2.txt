@@ -1,0 +1,11 @@
+https://github.com/supertia04/portfolio-studente-github
+supertia04	https://github.com/supertia04/portfolio-studente-github (fetch)
+supertia04	https://github.com/supertia04/portfolio-studente-github (push)
+1. git remote add origin https://github.com/supertia04/portfolio-studente-github.git
+2. git remote -v
+3. git push -u origin master (o main)
+4. (Modifica manuale di README.md)
+5. git status
+6. git add README.md
+7. git commit -m "Aggiornamento README: nota sulla pubblicazione su GitHub"
+8. git push
