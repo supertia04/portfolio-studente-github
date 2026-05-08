@@ -8,3 +8,4 @@ Contiene una semplice pagina web personale con stile CSS e una sezione competenz
 - `index.html`: La pagina web principale.
 - `style.css`: Il file di stile.
 - `README.md`: Documentazione del progetto.
+git push -u supertia04 master

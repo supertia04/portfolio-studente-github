@@ -1,0 +1,35 @@
+Comandi eseguiti:
+1. mkdir portfolio-studente
+2. cd portfolio-studente
+3. touch index.html style.css README.md
+4. git init
+5. git status
+6. git add .
+7. git commit -m "Inizializzazione progetto..."
+8. (Modifica manuale di index.html)
+9. git add index.html
+10. git commit -m "Aggiunta sezione Competenze..."
+11. git log --oneline
+--------------------------------------------------------------
+output:
+mattia04@MacBook-Pro-di-Mattia portfolio-studente % git status
+Sul branch master
+
+Non ci sono ancora commit
+
+File non tracciati:
+  (usa "git add <file>..." per includere l'elemento fra quelli di cui verrà eseguito il commit)
+	index.html
+	readme.md
+	style.css
+----------------------
+non è stato aggiunto nulla al commit ma sono presenti file non tracciati (usa "git add" per tracciarli) 
+0b0671a (HEAD -> master) Aggiunta sezione Competenze in index.html
+fd129a1 Inizializzazione progetto: aggiunta index.html, style.css e README.md
+dea5f2c Inizializzazione progetto: aggiunta index.html, style.css e README.md
+mattia04@MacBook-Pro-di-Mattia portfolio-studente % echo >risultati.txt
+mattia04@MacBook-Pro-di-Mattia portfolio-studente % nano risultati.txt
+mattia04@MacBook-Pro-di-Mattia portfolio-studente % git log --oneline
+0b0671a (HEAD -> master) Aggiunta sezione Competenze in index.html
+fd129a1 Inizializzazione progetto: aggiunta index.html, style.css e README.md
+dea5f2c Inizializzazione progetto: aggiunta index.html, style.css e README.md
